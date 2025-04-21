@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dough</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <!-- Thêm Font Awesome cho icon -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header với Video Background -->
+    <header class="video-header">
+        <video autoplay muted loop playsinline id="headerVideo">
+            <source src="../videos/Dough.mp4" type="video/mp4">
+            <img src="../images/Banner.png" alt="Dough Bakery">
+        </video>
+
+        <div class="header-overlay">
+            <div class="header-content">
+                <h1 class="logo">dough</h1>
+                <p class="tagline">freshly baked happiness</p>
+                <a href="#menu" class="cta-button">Order Now</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <button class="menu-toggle">
+                
+            </button>
+
+            <div class="nav-logo">
+                <span>dough</span>
+            </div>
+
+            <div class="nav-icons">
+                <a href="#" class="nav-icon"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#" class="nav-icon"><i class="fas fa-user"></i></a>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="nav-buttons">
+        <a href="#" class="nav-button">
+            <img src="../images/buttonourstory.png" alt="Our Story">
+        </a>
+        <a href="#menu" class="nav-button">
+            <img src="../images/buttonourmenu.png" alt="Our Menu">
+        </a>
+        <a href="#" class="nav-button">
+            <img src="../images/buttonourblog.png" alt="Our Blog">
+        </a>
+        <a href="../html/Careers.html" class="nav-button">
+            <img src="../images/buttonourcareer.png" alt="Our Career">
+        </a>
+    </div>
+    <section class="product-showcase" id="menu">
+        <samp class="text-time">Week of May 1 - 10</samp>
+        <h1 class="text-week">Dynamic Doughnut Week</h1>
+        <div class="product-outer-container" >
+            <div class="product-inner-container" style="--hover-bg: #fddfcf;">
+                <div class="product-image-container">
+                    <img src="../images/WS-VEGAN-HORCHATA.png" alt="Product Image" class="product-image">
+                </div>
+                <div class="product-text-container" style="color: #8a1b1b;">
+                    <h2>Horchata</h2>
+                    <p>Sweet rice puffs folded into our vegan dough, dipped in a horchata glaze, and finished with a
+                        dusting of cinnamon</p>
+                    <div class="product-actions" >
+                        <a href="../html/MenuHorchata.html" class="action-link">Learn More</a>
+                        <a href="#" class="action-link btn-order">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Sản phẩm có hình bên phải (thêm class .image-right) -->
+        <div class="product-outer-container">
+            <div class="product-inner-container image-right " style="--hover-bg: #e7a37d;" >
+                <div class="product-image-container">
+                    <img src="../images/WS-CARAMEL-DE-SEL.png" alt="Product Image" class="product-image">
+                </div>
+                <div class="product-text-container">
+                    <h2>Caramel de Sel</h2>
+                    <p>Vanilla and orange zest donut dipped in our house-made sticky caramel and sprinkled with Fleur de
+                        Sel</p>
+                    <div class="product-actions">
+                        <a href="../html/MenuCaramel.html" class="action-link" style="--hover-text: #ffffff;">Learn More</a>
+                        <a href="#" class="action-link btn-order">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-outer-container">
+            <div class="product-inner-container " style="--hover-bg: #bcd58e;">
+                <div class="product-image-container">
+                    <img src="../images/WS-INAG-CHOCOLATE-MATCHA.png" alt="Product Image" class="product-image">
+                </div>
+                <div class="product-text-container">
+                    <h2>Chocolate Matcha</h2>
+                    <p>Our classic wheat-free chocolate dough dipped in a matcha glaze</p>
+                    <div class="product-actions">
+                        <a href="../html/MenuChocolateMatcha.html" class="action-link" style="--hover-text: #ffffff;">Learn More</a>
+                        <a href="#" class="action-link btn-order">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sản phẩm có hình bên phải (thêm class .image-right) -->
+        <div class="product-outer-container">
+            <div class="product-inner-container image-right" style="--hover-bg: #e1aa59;">
+                <div class="product-image-container">
+                    <img src="../images/WS-LEMON-THYME.png" alt="Product Image" class="product-image">
+                </div>
+                <div class="product-text-container">
+                    <h2>Lemon Thyme</h2>
+                    <p>Fresh-picked thyme folded into our lemon zest dough, dunked in a sweet lemon glaze, and finished
+                        with a sprinkle of thyme.</p>
+                    <div class="product-actions">
+                        <a href="../html/MenuLemonThyme.html" class="action-link" style="--hover-text: #ffffff;">Learn More</a>
+                        <a href="#" class="action-link btn-order">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-outer-container">
+            <div class="product-inner-container " style="--hover-bg: #fddfd0;">
+                <div class="product-image-container">
+                    <img src="../images/WS-SWEET-TEA.png" alt="Product Image" class="product-image">
+                </div>
+                <div class="product-text-container" style="color: #8a1b1b;">
+                    <h2>Sweet tea</h2>
+                    <p>Our lemon and orange zest dough, dunked in a house-brewed sweet tea glaze.</p>
+                    <div class="product-actions">
+                        <a href="../html/MenuSweetTea.html" class="action-link">Learn More</a>
+                        <a href="#" class="action-link btn-order">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Sản phẩm có hình bên phải (thêm class .image-right) -->
+        <div class="product-outer-container">
+            <div class="product-inner-container image-right" style="--hover-bg: #ffeda0;">
+                <div class="product-image-container">
+                    <img src="../images/WS-PASSIONFRUIT-MILK-CHOCOLATE.png" alt="Product Image" class="product-image">
+                </div>
+                <div class="product-text-container" style="color: #8a1b1b;">
+                    <h2>Passionfruit milk Chocolate</h2>
+                    <p>Vanilla and orange zest donut glazed with tangy passion fruit and milk chocolate.</p>
+                    <div class="product-actions">
+                        <a href="../html/MenuPassionfruit.html" class="action-link" style="--hover-text: #8a1b1b;">Learn More</a>
+                        <a href="#" class="action-link btn-order">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="faq-section">
+        <div class="faq-container">
+            <h2 class="faq-title">Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    <div>
+                        <i class="fas fa-question-circle question-icon"></i>
+                        Do I need to pre-order the donuts?
+                    </div>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>At dough, our donuts are freshly made every day and always available, so you can stop by and buy
+                        anytime without waiting. If you're planning to buy in large quantities, just let us know in
+                        advance so we can prepare enough for you!</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    <div>
+                        <i class="fas fa-question-circle question-icon"></i>
+                        Do you offer delivery? What are the shipping fees like?
+                    </div>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Absolutely! dough delivers through third-party services like Grab, Be, and Xanh SM, and we’ll
+                        always inform you of the shipping fee beforehand. We deliver from just one donut, and offer free
+                        shipping within 2km or for orders over 700,000 VND</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    <div>
+                        <i class="fas fa-question-circle question-icon"></i>
+                        Can I pick up the donuts in person?
+                    </div>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Currently, dough operates online only, so there’s no physical storefront. But if you’d like to
+                        pick up at our kitchen, we totally support that—just let us know ahead of time!
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    <div>
+                        <i class="fas fa-question-circle question-icon"></i>
+                        Are the donuts very sweet?
+                    </div>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Our donuts are moderately sweet and made to suit most tastes, so you can enjoy them without
+                        worrying about overwhelming sweetness!</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    <div>
+                        <i class="fas fa-question-circle question-icon"></i>
+                        Do you offer gift wrapping and message cards?
+                    </div>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Of course! dough has a few card designs ready for those purchasing donuts as gifts. Just choose
+                        your card style and share the message you’d like to include—we’ll prepare everything with care!
+                    </p>
+                </div>
+            </div>
+
+            <div class="suggestion-form">
+                <h3>Other questions</h3>
+                <form>
+                    <div class="form-fields">
+                        <input type="tel" placeholder="Phone Number (optional)">
+                        <input type="email" placeholder="Email (optional)">
+                    </div>
+                    <textarea placeholder="Type your suggestion here" rows="4"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h2 class="footer-logo">dough</h2>
+            </div>
+            <div class="footer-addresses">
+                <p class="footer-tagline">SOKO CAKE BAKE & BRUNCH</p>
+                <p>24, Ho Tung Mau, D1, HCM</p>
+                <p>27A Nguyen Trung Truc, D1, HCMC</p>
+                <p>25B Ngo Quang Huy, D2, HCMC</p>
+                <p>92 Xuan Thuy, D2, HCMC</p>
+
+                <div class="footer-contacts">
+                    <p>Hotline: 090 110 98 80</p>
+                    <p>Customer Service: admin@sokogroupvn.com</p>
+                    <p>Marketing: hieunguyen@sokogroupvn.com</p>
+                </div>
+            </div>
+
+            <div class="footer-social">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                <a href="#" class="social-icon"><img src="../images/grabfood-png.png" alt="Foodpanda"></a>
+                <a href="#" class="social-icon"><img src="../images/shopeefood-png.png" alt="ShopeeFood"></a>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="footer-company">DOUGHGROUP</p>
+                <p class="footer-legal">terms & policies / cookie settings</p>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
