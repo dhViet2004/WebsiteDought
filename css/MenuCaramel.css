@@ -120,6 +120,7 @@
 }
 /* Base Styles */
 .cookie-container {
+    color: #8a1b1b;
     display: flex;
     flex-grow: 1;
     justify-content: center;
@@ -276,8 +277,8 @@
     z-index: 10;
     max-width: 400px;
     height: 40px;
-    background-color: rgb(0, 0, 0);
-    color: white;
+    background-color: #8a1b1b;
+    color: #FFF8F0;
     justify-content: center;
     width: 100%;
     text-decoration: none;
@@ -294,8 +295,8 @@
     min-height: 40px;
     height: 40px;
     background-color: transparent;
-    color: black;
-    border: 1px solid black;
+    color: #8a1b1b;
+    border: 1px solid #8a1b1b;
     justify-content: center;
     width: 100%;
     text-transform: capitalize;
@@ -440,6 +441,7 @@ body {
 }
 
 .reviews-container {
+    color: #8a1b1b;
     max-width: 100%;
     margin: 0 auto;
     padding: 20px;
@@ -523,6 +525,7 @@ body {
 }
 /* Container Styles */
 .ingredients-container {
+    color: #8a1b1b;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -581,6 +584,7 @@ body {
 
 /* Container */
 .nutrition-container {
+    color: #8a1b1b;
     width: 75%;
     display: flex;
     flex-direction: column;
@@ -619,12 +623,14 @@ body {
 
 /* Collapsible Section */
 .nutrition-section {
+    
     border: 1px solid #ccc;
     border-radius: 8px;
     overflow: hidden;
 }
 
 .nutrition-toggle {
+    color: #8a1b1b;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -680,10 +686,10 @@ body {
     width: 25%;
     margin-top: 20px;
     padding: 10px 20px;
-    border: 1px solid #000;
+    border: 1px solid #8a1b1b;
     border-radius: 25px;
     background-color: transparent;
-    color: #000;
+    color: #8a1b1b;
     cursor: pointer;
 }
 

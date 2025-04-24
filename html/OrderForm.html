@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donut Order Form</title>
+    <link rel="stylesheet" href="../css/OrderForm.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="form-header">
+            <div class="header-logo">
+                <img src="../images/bannerOrder.png" alt="Pizza Order Form">
+            </div>
+            <h1>Donut Order Form</h1>
+        </div>
+
+        <form id="pizza-order-form" class="pizza-order-form">
+            <section class="form-section">
+                <h2>Menu</h2>
+                <div class="product-grid">
+                    <!-- Product 1 -->
+                    <div class="product-item">
+                        <div class="product-checkbox">
+                            <input type="checkbox" id="product-1" name="menu[]" value="1001">
+                            <label class="checkbox-label" for="product-1"></label>
+                        </div>
+                        <div class="product-image">
+                            <img src="../images/WS-VEGAN-HORCHATA.png" alt="Pizza Neapolitan">
+                        </div>
+                        <div class="product-details">
+                            <h3>Horchata</h3>
+                            <p>Sweet rice puffs folded into our vegan dough, dipped in a horchata glaze, and finished with a dusting of cinnamon</p>
+                            <div class="product-price">$15.00</div>
+                            
+                            <div class="product-options">
+                                <div class="option-group">
+                                    <label for="quantity-1">Quantity</label>
+                                    <select id="quantity-1" name="menu[special_1001][quantity]">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Product 2 -->
+                    <div class="product-item">
+                        <div class="product-checkbox">
+                            <input type="checkbox" id="product-2" name="menu[]" value="1002">
+                            <label class="checkbox-label" for="product-2"></label>
+                        </div>
+                        <div class="product-image">
+                            <img src="../images/WS-CARAMEL-DE-SEL.png" alt="Pizza Pepperoni">
+                        </div>
+                        <div class="product-details">
+                            <h3>Caramel de Sel</h3>
+                            <p>Vanilla and orange zest donut dipped in our house-made sticky caramel and sprinkled with Fleur de Sel.</p>
+                            <div class="product-price">$13.00</div>
+                            
+                            <div class="product-options">
+                                <div class="option-group">
+                                    <label for="quantity-2">Quantity</label>
+                                    <select id="quantity-2" name="menu[special_1002][quantity]">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Product 3 -->
+                    <div class="product-item">
+                        <div class="product-checkbox">
+                            <input type="checkbox" id="product-3" name="menu[]" value="1007">
+                            <label class="checkbox-label" for="product-3"></label>
+                        </div>
+                        <div class="product-image">
+                            <img src="../images/WS-INAG-CHOCOLATE-MATCHA.png" alt="Pizza Mare e Monti">
+                        </div>
+                        <div class="product-details">
+                            <h3>Chocolate Matcha</h3>
+                            <p>Our classic wheat-free chocolate dough dipped in a matcha glaze</p>
+                            <div class="product-price">$15.00</div>
+                            
+                            <div class="product-options">
+                                <div class="option-group">
+                                    <label for="quantity-3">Quantity</label>
+                                    <select id="quantity-3" name="menu[special_1007][quantity]">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Product 4 -->
+                    <div class="product-item">
+                        <div class="product-checkbox">
+                            <input type="checkbox" id="product-4" name="menu[]" value="1008">
+                            <label class="checkbox-label" for="product-4"></label>
+                        </div>
+                        <div class="product-image">
+                            <img src="../images/WS-LEMON-THYME.png" alt="Pizza Supreme">
+                        </div>
+                        <div class="product-details">
+                            <h3>Lemon Thyme</h3>
+                            <p>Fresh-picked thyme folded into our lemon zest dough, dunked in a sweet lemon glaze, and finished with a sprinkle of thyme.</p>
+                            <div class="product-price">$14.00</div>
+                            
+                            <div class="product-options">
+                                <div class="option-group">
+                                    <label for="quantity-4">Quantity</label>
+                                    <select id="quantity-4" name="menu[special_1008][quantity]">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Beverage 1 -->
+                    <div class="product-item beverage">
+                        <div class="product-checkbox">
+                            <input type="checkbox" id="product-5" name="menu[]" value="1005">
+                            <label class="checkbox-label" for="product-5"></label>
+                        </div>
+                        <div class="product-image">
+                            <img src="../images/WS-SWEET-TEA.png" alt="Orange Juice">
+                        </div>
+                        <div class="product-details">
+                            <h3>Sweet tea</h3>
+                            <p>Our lemon and orange zest dough, dunked in a house-brewed sweet tea glaze.</p>
+                            <div class="product-price">$8.00</div>
+                            
+                            <div class="product-options">
+                                <div class="option-group">
+                                    <label for="quantity-5">Quantity</label>
+                                    <select id="quantity-5" name="menu[special_1005][quantity]">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Beverage 2 -->
+                    <div class="product-item beverage">
+                        <div class="product-checkbox">
+                            <input type="checkbox" id="product-6" name="menu[]" value="1006">
+                            <label class="checkbox-label" for="product-6"></label>
+                        </div>
+                        <div class="product-image">
+                            <img src="../images/WS-PASSIONFRUIT-MILK-CHOCOLATE.png" alt="Lemonade">
+                        </div>
+                        <div class="product-details">
+                            <h3>Passionfruit milk Chocolate</h3>
+                            <p>Vanilla and orange zest donut glazed with tangy passion fruit and milk chocolate.</p>
+                            <div class="product-price">$8.00</div>
+                            
+                            <div class="product-options">
+                                <div class="option-group">
+                                    <label for="quantity-6">Quantity</label>
+                                    <select id="quantity-6" name="menu[special_1006][quantity]">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="order-total">
+                    <div class="total-text">Total</div>
+                    <div class="total-amount">$0.00</div>
+                </div>
+            </section>
+        
+            <section class="form-section">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="pickup-date">Delivery Date</label>
+                        <div class="date-input-container">
+                            <input type="date" id="pickup-date" name="pickup-date" placeholder="MM.DD.YYYY" value="04.24.2025" required>  
+                        </div>
+                        <span class="field-subtitle">Date</span>
+                    </div>
+                </div>
+            
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="pickup-time">Delivery Time</label>
+                        <div class="time-picker">
+                            <div class="time-input-group">
+                                <input type="text" id="pickup-time" name="pickup-time" placeholder="HH : MM" required>
+                                <select class="am-pm-select">
+                                    <option value="AM">AM</option>
+                                    <option value="PM" selected>PM</option>
+                                </select>
+                            </div>
+                            <span class="time-separator">Until</span>
+                            <div class="time-input-group">
+                                <input type="text" id="pickup-time-end" name="pickup-time-end" placeholder="HH : MM" required>
+                                <select class="am-pm-select">
+                                    <option value="AM">AM</option>
+                                    <option value="PM" selected>PM</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="time-labels">
+                            <span class="field-subtitle">Hour Minutes</span>
+                            <span class="field-subtitle time-end-label">Hour Minutes</span>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="form-row">
+                    <label>Name</label>
+                    <div class="double-input-container">
+                        <div class="form-group half">
+                            <input type="text" id="first-name" name="first-name" required>
+                            <span class="field-subtitle">First Name</span>
+                        </div>
+                        <div class="form-group half">
+                            <input type="text" id="last-name" name="last-name" required>
+                            <span class="field-subtitle">Last Name</span>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="form-row">
+                    <div class="double-input-container">
+                        <div class="form-group half">
+                            <label for="email">Address</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="field-subtitle">350 5th Ave, New York</span>
+                        </div>
+                        <div class="form-group half">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="(000) 000-0000" required>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="notes">Additional Notes</label>
+                        <textarea id="notes" name="notes" rows="5"></textarea>
+                    </div>
+                </div>
+            </section>
+            
+            <div class="form-actions">
+                <button type="submit" class="btn-submit" id="btn-order">Order</button>
+            </div>
+        
+        
+        </form>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+        const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+        const quantitySelects = document.querySelectorAll('select[id^="quantity-"]');
+        const totalAmountDisplay = document.querySelector('.total-amount');
+        
+        // Function to update individual item subtotal
+        function updateItemSubtotal(checkbox) {
+            const productItem = checkbox.closest('.product-item');
+            const subtotalElement = productItem.querySelector('.subtotal-price');
+            
+            if (!subtotalElement) return;
+            
+            const priceElement = productItem.querySelector('.product-price');
+            const quantitySelect = productItem.querySelector('select[id^="quantity-"]');
+            
+            if (checkbox.checked) {
+                const price = parseFloat(priceElement.textContent.replace('$', ''));
+                const quantity = parseInt(quantitySelect.value);
+                const subtotal = (price * quantity).toFixed(2);
+                subtotalElement.textContent = `$${subtotal}`;
+            } else {
+                subtotalElement.textContent = '$0.00';
+            }
+        }
+        
+        // Function to update the total order amount
+        function updateTotal() {
+            let total = 0;
+            
+            checkboxes.forEach(checkbox => {
+                if (checkbox.checked) {
+                    const productItem = checkbox.closest('.product-item');
+                    const priceElement = productItem.querySelector('.product-price');
+                    const quantitySelect = productItem.querySelector('select[id^="quantity-"]');
+                    
+                    const price = parseFloat(priceElement.textContent.replace('$', ''));
+                    const quantity = parseInt(quantitySelect.value);
+                    
+                    total += price * quantity;
+                }
+            });
+            
+            totalAmountDisplay.textContent = `$${total.toFixed(2)}`;
+        }
+        
+        // Add event listeners to checkboxes
+        checkboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', function() {
+                updateItemSubtotal(this);
+                updateTotal();
+            });
+        });
+        
+        // Add event listeners to quantity selects
+        quantitySelects.forEach(select => {
+            select.addEventListener('change', function() {
+                const productItem = this.closest('.product-item');
+                const checkbox = productItem.querySelector('input[type="checkbox"]');
+                
+                if (checkbox.checked) {
+                    updateItemSubtotal(checkbox);
+                    updateTotal();
+                }
+            });
+        });
+        
+        // Set current date as the default for the date picker
+        const pickupDateInput = document.getElementById('pickup-date');
+        if (pickupDateInput) {
+            const today = new Date();
+            const yyyy = today.getFullYear();
+            const mm = String(today.getMonth() + 1).padStart(2, '0');
+            const dd = String(today.getDate()).padStart(2, '0');
+            
+            pickupDateInput.value = `${yyyy}-${mm}-${dd}`;
+        }
+        
+        // Form submission
+        const form = document.getElementById('pizza-order-form');
+        form.addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            // Check if at least one product is selected
+            const isAnyProductSelected = Array.from(checkboxes).some(checkbox => checkbox.checked);
+            
+            if (!isAnyProductSelected) {
+                alert('Please select at least one product.');
+                return;
+            }
+            
+            // Here you would typically send the form data to a server
+            alert('Thank you for your order! We will prepare it for your pickup time.');
+        });
+    });
+    document.getElementById("btn-order").addEventListener("click", function(event) {
+            event.preventDefault(); // Ngăn form submit mặc định
+            window.location.href = "../html/home.html"; // Chuyển trang
+        });
+    </script>
+</body>
+</html>
