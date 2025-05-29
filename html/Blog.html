@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="../css/Blog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <button class="menu-toggle" onclick="window.location.href='../html/home.html'"> <!-- Chuyển về trang home.html -->
+                <i class="fas fa-arrow-left"></i> 
+            </button>            
+            <div class="nav-logo">
+                <span>dough</span>
+            </div>
+
+            <div class="nav-icons">
+                <a href="../html/OrderForm.html" class="nav-icon"><i class="fas fa-shopping-cart"></i></a>
+                <a href="../html/Signup.html" class="nav-icon"><i class="fas fa-user"></i></a>
+            </div>
+        </div>
+    </nav>
+    <!-- Banner Section -->
+    <div class="banner-container">
+        <!-- <img src="../images/COVER.png" alt="Banner" class="banner-image"> -->
+        <div class="banner-text">
+            <h1>Welcome to Our Blog</h1>
+            <p>Discover the world of baking with amazing recipes and tips!</p>
+        </div>
+    </div>
+    <!-- Blog Cards -->
+    <div class="blog-container">
+        <!-- Card 1 -->
+        <div class="blog-card" onclick="toggleContent(1)">
+            <img src="../images/BLOG1.jpg" alt="Croissant" class="blog-image">
+            <h3 class="blog-title">Dough: Where Every Bite Tells a Story of Care</h3>
+            <div class="blog-content" id="content-1">
+                <p>Have you ever taken a bite of something so delicious that it felt like more than just food? At Dough,
+                    every pastry is crafted to be more than a treat—it’s a heartfelt story, kneaded with care, passion,
+                    and a mission to spark genuine connections.</p>
+                <p>Our philosophy is simple yet profound: to infuse every product with sincerity, transforming a humble
+                    donut or pastry into a vessel of joy, warmth, and shared moments. Dough isn’t just a pastry brand;
+                    it’s a celebration of the little things that matter.</p>
+                <p>From the moment we select the freshest, highest-quality ingredients to the final touch of
+                    hand-crafted
+                    perfection, each step in our process is guided by a deep commitment to excellence. Our bakers pour
+                    their hearts into every creation, ensuring that every bite carries the warmth of their dedication.
+                </p>
+                <p>Whether it’s a classic donut glazed to perfection or an intricately designed pastry for a special
+                    occasion, each Dough product is a small gift—a tangible expression of care.</p>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="blog-card" onclick="toggleContent(2)">
+            <img src="../images/BLOG2.jpg" alt="Butter Selection" class="blog-image">
+            <h3 class="blog-title">Why Dough?</h3>
+            <div class="blog-content" id="content-2">
+                <p>Life is a collection of moments—some fleeting, others unforgettable. The most meaningful
+                    ones—birthdays, anniversaries, graduations, or simply gatherings with loved ones—deserve to be
+                    celebrated with intention. That’s where Dough steps in. Our pastries aren’t just desserts; they’re
+                    carefully crafted experiences designed to elevate your special occasions and weave sweetness into
+                    the fabric of your memories.
+                </p>
+                <p>
+                    When you choose Dough, you’re not just picking a pastry—you’re curating a feeling. Every creation is
+                    a labor of love, born from a meticulous process that honors tradition and craftsmanship. We start
+                    with the finest ingredients, sourced with care to ensure unparalleled quality. Our bakers, with
+                    their skilled hands and passionate hearts, transform these ingredients into pastries that delight
+                    the senses. From the delicate aroma that wafts from a freshly opened box to the perfect balance of
+                    flavors in every bite, Dough pastries are designed to spark joy.
+                </p>
+                <p>
+                    What sets Dough apart is our commitment to the details. We believe that true care lies in the
+                    nuances—the perfect texture of a donut, the vibrant colors of a custom creation, or the thoughtful
+                    packaging that makes every order feel like a gift. These elements come together to create more than
+                    just a treat; they create an experience that resonates long after the last crumb is gone.
+                </p>
+                <p>
+                    Imagine the scene: a birthday party where a box of Dough donuts steals the show, eliciting gasps of
+                    delight from guests. Or a quiet anniversary moment, where a custom pastry becomes a symbol of shared
+                    love. Even in everyday moments—like surprising a friend with their favorite treat—Dough transforms
+                    the ordinary into the extraordinary. Each pastry is a way to say, “This moment matters. You matter.”
+                </p>
+                <p>
+                    We understand that life’s milestones are precious, and they deserve more than the ordinary. That’s
+                    why Dough is dedicated to infusing every occasion with artistry, care, and a touch of sweetness.
+                    Whether you’re celebrating a grand achievement or simply savoring a quiet moment with loved ones,
+                    Dough is here to make it unforgettable. So, the next time you’re planning a special moment, choose
+                    Dough—because some occasions deserve a little extra love, baked right in.
+                </p>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="blog-card" onclick="toggleContent(3)">
+            <img src="../images/BLOG3.jpg" alt="Charcoal Bread" class="blog-image">
+            <h3 class="blog-title">Dough: Where Sweetness Meets Shared Moments
+            </h3>
+            <div class="blog-content" id="content-3">
+                <p>In today’s fast-paced world, it’s easy to get caught up in the whirlwind of schedules, notifications,
+                    and to-do lists. Amid the chaos, we sometimes forget what truly nourishes us: the connections we
+                    share with others. At Dough, we believe that the most precious gift isn’t found in a store or
+                    wrapped in a bow—it’s the gift of time, presence, and the shared moments that define our lives.
+                </p>
+                <p>
+                    Think back to a time when you felt truly seen and valued. Chances are, it wasn’t because of an
+                    extravagant gesture. It was likely a simple moment—a heartfelt conversation, a shared laugh over
+                    coffee, or the quiet comfort of someone’s presence. These are the memories that linger, the ones we
+                    carry in our hearts. At Dough, we see our pastries as more than just food; they’re catalysts for
+                    these meaningful connections.
+                </p>
+                <p>
+                    Every Dough creation is crafted with intention. We choose the finest ingredients and employ
+                    time-honored techniques, but what truly sets us apart is the purpose behind our work. Each pastry is
+                    an invitation to pause, gather, and share a moment of joy. A box of Dough donuts isn’t just a
+                    collection of treats; it’s a reason to come together, to celebrate, or to simply enjoy the pleasure
+                    of each other’s company.
+                </p>
+                <p>
+                    Imagine surprising a loved one with a Dough pastry on an ordinary day, just because you were
+                    thinking of them. In that shared bite, in the smile that follows, lies the real gift: a moment of
+                    connection that says, “I care about you.” Whether it’s a grand celebration like a wedding or a quiet
+                    evening at home with family, Dough pastries are designed to enhance these moments, making them
+                    richer and more memorable.
+                </p>
+                <p>
+                    Life’s most treasured milestones gain deeper meaning when punctuated by shared experiences. But so
+                    do the everyday moments—a quick coffee break with a colleague, a thoughtful treat shared during a
+                    deep conversation, or the joy of bringing home a box of Dough to brighten your family’s evening.
+                    These are the threads that weave the tapestry of our lives, and Dough is honored to be a part of
+                    them.
+                </p>
+                <p>
+                    So, the next time you want to show someone you care, consider the power of a shared Dough moment.
+                    It’s more than a pastry—it’s a chance to slow down, connect, and savor the sweetness of life
+                    together. Because in the end, it’s not the things we own, but the moments we share, that truly make
+                    life beautiful.
+                </p>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="blog-card" onclick="toggleContent(4)">
+            <img src="../images/BLOG4.jpg" alt="Baking Tips" class="blog-image">
+            <h3 class="blog-title">Dough’s Introvert Lovers</h3>
+            <div class="blog-content" id="content-4">
+                <p>Dear introverts, we see you—and we’ve created a shopping experience just for you! At Dough, we
+                    understand that shopping can sometimes feel overwhelming, especially when it involves crowded stores
+                    or lengthy conversations. That’s why we’ve designed our online platform to be a haven for those who
+                    prefer a quieter, more intentional way to shop. With Dough, you can explore, choose, and order your
+                    favorite pastries with ease, all from the comfort of your own space.
+                </p>
+                <h3>
+                    Why Introverts Choose Dough
+                </h3>
+                <p>
+                    Here’s how we cater to the unique preferences of our introverted friends, based on insights into
+                    their shopping habits:
+                </p>
+                <ol>
+                    <li>
+                        <h4>Online Shopping, Made Simple</h4>
+                        <p>
+                            Introverts often prefer the privacy and control of online shopping, and we’ve made it
+                            effortless. Our website is intuitive, with every product described in vivid detail—from
+                            flavors
+                            and textures to serving sizes and storage tips. No need for lengthy phone calls or in-person
+                            visits; you can browse and order with just a few clicks, even at midnight! Forgot to order a
+                            cake until you’re winding down for the night? No problem—our platform is available 24/7, so
+                            you
+                            can shop on your schedule.
+                        </p>
+                    </li>
+                    <li>
+                        <h4>Thorough Research, No Pressure
+                        </h4>
+                        <p>
+                            We know introverts love to dive deep into product details before making a decision. That’s
+                            why our website is packed with comprehensive information, including customer reviews,
+                            ingredient lists, and recommendations for every occasion. Want to know which donut pairs
+                            best with your morning coffee or which pastry is perfect for a small gathering? It’s all
+                            there, so you can make informed choices without needing to consult anyone.
+                        </p>
+                    </li>
+                    <li>
+                        <h4>
+                            A Personalized, Low-Contact Experience
+                        </h4>
+                        <p>
+                            Introverts value a seamless, self-guided experience, and we’ve got you covered. Not sure
+                            which flavor to choose? Take our fun, interactive quiz on the website to discover your
+                            perfect match. Once you place your order, you’ll receive a quick confirmation call from our
+                            team—usually under a minute—to ensure everything is set. It’s subtle support that respects
+                            your space and keeps the process stress-free.
+                        </p>
+                    </li>
+                    <li>
+                        <h4>
+                            Quality You Can Trust
+                        </h4>
+                        <p>
+                            Introverts shop with purpose, prioritizing products that align with their needs and values.
+                            At Dough, we’re committed to delivering exceptional quality in every pastry. From the
+                            freshest ingredients to our meticulous craftsmanship, each product is designed to meet your
+                            high standards. You can shop confidently, knowing you’re choosing treats that reflect your
+                            taste and care.
+                        </p>
+                    </li>
+                </ol>
+                <h3>
+                    A Special Invitation
+                </h3>
+                <p>
+                    To our introverted friends: Dough is your safe space to shop without worry. Whether you’re treating
+                    yourself to a well-deserved treat or selecting a gift for someone special, our website makes it easy
+                    to find exactly what you need. No crowds, no pressure—just a delightful experience tailored to you.
+                </p>
+                <p>
+                    Ready to explore? Visit our website, take our flavor quiz, and discover the joy of Dough at your own
+                    pace. We can’t wait to be a part of your sweet moments, however you choose to enjoy them.
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h2 class="footer-logo">dough</h2>
+            </div>
+            <div class="footer-addresses">
+                <p class="footer-tagline">DOUGH DONUT HOUS</p>
+                <p>
+                    <a href="https://www.google.com/maps/place/95+P.+Tr%E1%BA%A7n+%C4%90%E1%BA%A1i+Ngh%C4%A9a,+B%C3%A1ch+Khoa,+Hai+B%C3%A0+Tr%C6%B0ng,+H%C3%A0+N%E1%BB%99i,+Vi%E1%BB%87t+Nam/@21.0040923,105.8270913,15z/data=!3m1!4b1!4m6!3m5!1s0x3135ac769162a35d:0x6732a1c1824e0825!8m2!3d21.0040733!4d105.8455454!16s%2Fg%2F11q2n6pjyt?entry=ttu" target="_blank" style="color: white; text-decoration: none;">
+                        95 Tran Dai Nghia, Hai Ba Trung, Ha Noi
+                    </a>
+                </p>
+                <p>
+                    <a href="https://www.google.com/maps/place/13+%C4%90.+%C4%90%E1%BA%A1i+C%E1%BB%93+Vi%E1%BB%87t,+C%E1%BA%A7u+D%E1%BB%81n,+Hai+B%C3%A0+Tr%C6%B0ng,+H%C3%A0+N%E1%BB%99i,+Vi%E1%BB%87t+Nam/@21.0068602,105.8465069,17z/data=!3m1!4b1!4m6!3m5!1s0x3135ac759b32f43f:0x3a91a8116801f706!8m2!3d21.0068552!4d105.8490818!16s%2Fg%2F11rcyk638x?entry=ttu" target="_blank" style="color: white; text-decoration: none;">
+                        13 Dai Co Viet, Hai Ba Trung, Ha Noi
+                    </a>
+                </p>
+            
+                <div class="footer-contacts">
+                    <p>Hotline: 0819518267</p>
+                    <p>Customer Service: admin@doughgroupvn.com</p>
+                    <p>Marketing: admin@doughgroupvn.com</p>
+                </div>
+            </div>
+            <div class="footer-social">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                <a href="#" class="social-icon"><img src="../images/grabfood-png.png" alt="Foodpanda"></a>
+                <a href="#" class="social-icon"><img src="../images/shopeefood-png.png" alt="ShopeeFood"></a>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="footer-company">DOUGHGROUP</p>
+                <p class="footer-legal">terms & policies / cookie settings</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function toggleContent(cardNumber) {
+            const content = document.getElementById(`content-${cardNumber}`);
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        }
+    </script>
+</body>
+
+</html>

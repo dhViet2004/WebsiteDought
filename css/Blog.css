@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&family=Manrope:wght@400;500&display=swap');
+*{
+    font-family: 'Fredoka One', cursive;
+}
+/* Main Navigation Styles */
+.main-nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #FFF8F0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    padding: 15px 0;
+    transition: all 0.3s ease;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.menu-toggle {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #8a1b1b;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.menu-toggle:hover {
+    transform: scale(1.1);
+}
+
+.nav-logo span {
+    
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #8a1b1b;
+    letter-spacing: 2px;
+}
+
+.nav-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-icon {
+    color: #8a1b1b;
+    font-size: 1.3rem;
+    transition: transform 0.3s ease;
+}
+
+.nav-icon:hover {
+    transform: scale(1.1);
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    padding: 5%;
+    background-color: #FFF8F0;
+}
+
+.nav-button {
+    display: inline-block;
+    transition: transform 0.5s ease;
+    border-radius: 50%;
+    overflow: visible;
+    width: 100%px;
+    height: auto;
+}
+/* Logo Container Styles */
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Khoảng cách giữa logo và chữ */
+}
+
+.logo-image {
+    height: 50px; /* Điều chỉnh kích thước logo */
+    width: auto; /* Duy trì tỷ lệ gốc của ảnh */
+    object-fit: contain; /* Đảm bảo logo hiển thị đầy đủ */
+}
+ .logo-image:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+/* Banner Container */
+.banner-container {
+    background-color: #FFF8F0;
+    position: relative;
+    width: 100%;
+    height:700px; /* Adjust height as needed */
+    overflow: hidden;
+}
+
+/* Banner Image */
+.banner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container */
+}
+
+/* Banner Text */
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #8a1b1b;
+    text-shadow: 0 2px 5px rgba(255, 214, 214, 0.7);
+}
+
+.banner-text h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.banner-text p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+/* Blog Container */
+.blog-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+/* Blog Card Styles */
+.blog-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.blog-card:hover {
+    transform: scale(1.05);
+}
+
+/* Blog Image */
+.blog-image {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+/* Blog Title */
+.blog-title {
+    font-size: 1.2rem;
+    color: #8a1b1b;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Blog Content */
+.blog-content p,h3,ul,li {
+    font-weight: 400; /* Đặt độ dày chữ mỏng nhẹ */
+    font-family: 'Fredoka One', cursive; /* Font chữ */
+    color: #8a1b1b;
+}
+/* Blog Content (Hidden by Default) */
+.blog-content {
+    display: none;
+    padding: 10px;
+    font-size: 1rem;
+    color: #333;
+    border-top: 1px solid #ddd;
+}
+/* Footer Styles */
+.site-footer {
+    background-color: #8a1b1b; /* Darker red color */
+    color: white;
+    padding: 2.5rem 2rem;
+    line-height: 1.6;
+}
+
+.footer-container {
+    max-width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: start;
+    gap: 2rem;
+}
+
+.footer-brand {
+    margin-top: -30px;
+    text-align: left;
+}
+
+.footer-logo {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+.footer-tagline {
+    text-align: start;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-addresses {
+    text-align: left; /* Changed from center to left */
+}
+
+.footer-addresses p,
+.footer-contacts p {
+    padding-left: 30%;
+   
+    margin: 0.7rem 0;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.footer-contacts {
+    margin-top: 1.5rem;
+}
+
+.footer-social {
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+.social-icon img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.footer-bottom {
+    grid-column: 1 / -1;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-company {
+    color: rgba(255, 255, 255, 0.9);
+    letter-spacing: 1px;
+}
+
+.footer-legal {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .footer-brand,
+    .footer-addresses {
+        text-align: center;
+    }
+    
+    .footer-social {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .footer-company,
+    .footer-legal {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .site-footer {
+        padding: 2rem 1.5rem;
+    }
+    
+    .footer-logo {
+        font-size: 2rem;
+    }
+}
