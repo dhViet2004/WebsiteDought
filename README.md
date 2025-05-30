@@ -39,15 +39,8 @@ Dough Website là một dự án giao diện web cho tiệm bánh Dough Donut Ho
 - `/videos/`: Video background cho trang chủ.
 
 ## 📌 Thông tin liên hệ
-
-- **Địa chỉ 1:** 95 Trần Đại Nghĩa, Hai Bà Trưng, Hà Nội
-- **Địa chỉ 2:** 13 Đại Cồ Việt, Hai Bà Trưng, Hà Nội
-- **Hotline:** 0819518267
-- **Email CSKH & Marketing:** admin@doughgroupvn.com
-- **Facebook, Instagram, TikTok, GrabFood, ShopeeFood:** Xem ở phần footer trang web
-
+- **Email CSKH & Marketing:** dviet037@gmail.com
 ## 📃 License
-
 Dự án mang tính chất học tập/tham khảo cá nhân. Vui lòng liên hệ tác giả nếu muốn sử dụng lại cho mục đích thương mại.
 
 ---
